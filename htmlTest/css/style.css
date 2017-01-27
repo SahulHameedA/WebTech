@@ -1,0 +1,71 @@
+/* Default CSS */
+
+/* Navigational Menu are part of unorderd list item with the class nav */
+/* They are styled as Horizontal */  
+ul.nav {
+   /* should not be bulletted/circled/squared etc */
+   list-style-type: none;
+   
+   /* give a uniform background for all navigational menu elements */
+   background-color: #333333;
+   
+   /* margin and padding set to zero */
+   margin: 0;
+   padding: 0;
+   
+   /* if there are more menu items than what can be displayed on the screen, hide them on overflow */
+   overflow: hidden;		
+			
+   /* Make the navigation bar stay at the top or the bottom of the page, even when the user scrolls the page */
+   position: fixed;
+   top: 0;
+   
+   /* have the navigational menu span to the entire width of the page */
+   width: 100%;			 
+}
+
+/* style the list itmes belonging to navigation unordered list */		 
+ul.nav li {
+   /* float the components left */
+   float: left;
+   
+   /* add a right border line */
+   border-right: 1px solid #bbb;		   
+}
+		 
+/* for the last item in the navigational ul list, make the border-right line to none */
+ul.nav li:last-child {
+   border-right: none;
+}
+
+/* style the hyper links */
+ul.nav li a {
+   /* by default, anchors are inline, but here we make it to block */
+   display: block;
+   
+   /*of course, underlines to be removed for these items*/		 
+   text-decoration: none;
+   
+   /* make the item visible, since we have a little dark background set for the ul */
+   color: white;
+   
+   /* give some padding space */
+   padding: 16px;
+   
+   /* align the text to center */
+   text-align: center;
+ 
+   /* use a common font family and size */  
+   font-family: "Courier New";
+   font-size: medium;
+}
+
+/* when hovering over a menu, highlight by changing the background color */	 
+ul.nav li a:hover {
+   background-color: black;
+}
+
+/* since there will be so many menus, highlight to the user the current active one with green background */		 
+.active {
+   background-color: #4CAF50;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="CoffeeCup HTML Editor (www.coffeecup.com)">
+    <meta name="dcterms.created" content="Sun, 08 Jan 2017 04:54:44 GMT">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+	<title></title>
+    
+    <!--[if IE]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  	 
+  <style>
+  		 ul {
+		 	list-style-type: none;
+			background-color: #333333;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;		
+			
+			/* Make the navigation bar stay at the top or the bottom of the page, even when the user scrolls the page */
+			position: fixed;
+			top: 0;
+			width: 100%;			 
+		 }
+		 
+		 li {
+		 	float: left;
+			/* add a right border line */
+			border-right: 1px solid #bbb;		   
+		 }
+		 
+		 /* for the last item in the list, make the border-right line to none */
+		 li:last-child {
+    	 	border-right: none;
+		 }
+		 
+		 li a {
+		 	   display: block;		 
+		 	   text-decoration: none;
+			   color: white;
+			   padding: 16px;
+			   text-align: center;
+			   font-family:"Courier New";
+			   font-size:medium;
+		 }
+		 
+		 li a:hover {
+		 	 background-color: black;
+		 }
+		 
+		 .active {
+		 	 background-color: #4CAF50;
+		 }
+  </style>
+  
+  </head>
+  
+  <body>
+
+  		<ul>
+			<li> <a href="/" target="main"> HOME </a> </li>
+			<li> <a href="/" target="main"> ISLAMIC </a> </li>
+			<li> <a class="active" href="table.html" target="main"> TABLE </a> </li>
+			<li> <a href="javaScriptSample.html" target="main"> JAVASCRIPT </a> </li>
+			<li style="float:right"><a href="/">About</a></li>
+		</ul>
+		
+		<iframe name="main" src="table.html" width="100%" height="300px" style="margin:50px 0 0 0;"></iframe>
+  </body>
+</html>
