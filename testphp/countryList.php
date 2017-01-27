@@ -1,0 +1,33 @@
+<?php
+	echo '<option value=""></option>';
+	echo '<option value="Denmark">Denmark</option>';
+	echo '<option value="India">India</option>';
+	echo '<option value="Singapore">Singapore</option>';
+	echo '<option value="South Africa">South Africa</option>';
+	echo '<option value="USA">USA</option>';
+	echo '<option value="Denmark">Denmark</option>';
+	echo '<option value="India">India</option>';
+	echo '<option value="Singapore">Singapore</option>';
+	echo '<option value="South Africa">South Africa</option>';
+	echo '<option value="USA">USA</option>';
+	echo '<option value="Denmark">Denmark</option>';
+	echo '<option value="India">India</option>';
+	echo '<option value="Singapore">Singapore</option>';
+	echo '<option value="South Africa">South Africa</option>';
+	echo '<option value="USA">USA</option>';
+	echo '<option value="Denmark">Denmark</option>';
+	echo '<option value="India">India</option>';
+	echo '<option value="Singapore">Singapore</option>';
+	echo '<option value="South Africa">South Africa</option>';
+	echo '<option value="USA">USA</option>';
+	echo '<option value="Denmark">Denmark</option>';
+	echo '<option value="India">India</option>';
+	echo '<option value="Singapore">Singapore</option>';
+	echo '<option value="South Africa">South Africa</option>';
+	echo '<option value="USA">USA</option>';
+	echo '<option value="Denmark">Denmark</option>';
+	echo '<option value="India">India</option>';
+	echo '<option value="Singapore">Singapore</option>';
+	echo '<option value="South Africa">South Africa</option>';
+	echo '<option value="USA">USA</option>';
+?>
